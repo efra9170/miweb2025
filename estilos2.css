@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(239, 237, 237);
+    text-decoration: none;
+    text-align: center;
+}
+
+.titulo {
+    padding: 10px;
+    background-color: rgb(43, 4, 98);
+    font-size: 20px;
+    color: rgb(246, 244, 244);
+}
+
+nav ul {
+    width: 80;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(87, 101, 101);
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: 10px;
+    width: 100px;
+}
+
+nav ul a:hover {
+    background-color: rgb(235, 236, 236);
+}
+
+.padre {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.padre .hijo {
+    width: 70%;
+    margin: auto;
+}
+
+.padre .hijo div {
+    width: 80% padding 15px;
+    background-color: rgb(4, 4, 34);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.padre .hijo img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+.padre .inform1 {
+    width: 30%;
+}
+
+.padre .inform1 {
+    background-color: slategrey;
+    border-radius: 15px;
+    padding-left: 20px;
+    height: 1200px;
+}
+
+.padre .inform11 {
+    width: 30%;
+}
+
+.padre .inform11 {
+    background-color: slategrey;
+    border-radius: 15px;
+    padding-left: 20px;
+    height: 12px;
+}
+
+.informe2 {
+    padding: 100px;
+}
+
+.informe2 {
+    font-size: 15px;
+    color: rgb(141, 5, 5);
+    text-align: justify;
+}
+
+.informe2 {
+    background-color: rgb(219, 218, 225);
+    margin: 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+.inform1 {
+    font-size: 25px;
+    color: rgb(164, 79, 131);
+    text-align: justify;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(230, 226, 228);
+}
+
+.informe2 p {
+    font-size: 20px;
+    color: rgb(107, 19, 201);
+    text-align: justify;
+}
